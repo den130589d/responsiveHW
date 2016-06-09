@@ -38,12 +38,12 @@ gulp.task('missionOne', function(){
 gulp.task('missionTwo', function(){
 	gulp.src('dev/html/**/*.html').pipe(includer()).pipe(gulp.dest('build/')).pipe(connect.reload());
 });
-.gulp.task('missionThree', function(){
+gulp.task('missionThree', function(){
 	gulp.src('dev/img/*.*').pipe(gulp.dest('build/img/'));
 });
 
 gulp.task('default', function(){
-	gulp.start('missionOne', 'missionTwo', 'missionZero');
+	gulp.start('missionOne', 'missionTwo', 'missionZero', 'missionThree');
 
 	gulp.watch(['dev/css/*.css'], function(){
 		gulp.start('missionOne');
