@@ -1,0 +1,422 @@
+.countbox-num{
+	width: 63px;
+	height: 64px;
+	display: inline-block;
+	
+}
+.countbox-space{
+	width: 9px;
+	display: inline-block;
+	
+}
+.countbox-num-item{
+	width: 29px;
+	height: 42px;
+	display: inline-block;
+	
+	line-height: 42px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	background: url(img/num.png)
+}
+div.countbox-num-item:nth-child(even){
+	margin-left: 3px;
+}
+
+div#countbox-days-text{
+	font-family: verdana;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+}
+
+div#countbox-hours-text{
+	font-family: verdana;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+}
+div#countbox-mins-text{color: #ffffff;font-family: verdana;
+	font-size: 14px;text-align: center;}
+
+div#countbox-secs-text{color: #ffffff;font-family: verdana;
+	font-size: 14px;text-align: center;}
+.a{
+	width: 500px;
+	height: 500px;
+	
+}
+.header{
+	background-color: #3f4142;
+	padding: 31px 0px;
+}
+.conteiner{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.inline{
+	display: inline-block;
+	vertical-align: top;
+}
+.header .inline{
+	width: 32%;
+}
+.button{
+	text-align:center;
+}
+.zayavka{
+	width: 250px;
+	height: 37px;
+	background: url(img/pic1.png) repeat;
+	border: none;
+	/* margin-left: 216px; */
+	
+	
+}
+.phone-wrap{
+	text-align:right;
+}
+.phone{
+	display:inline-block;
+	padding-left: 20px;
+	background: url(img/phone.png) no-repeat left center;
+	line-height:24px;
+}
+.text-zvonok{
+	font-family: tahoma;
+	font-size: 14px;
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+	margin-right: 13px;
+	
+}
+
+.text-num{
+	font-family: tahoma;
+	font-size: 18px;
+	color: #f3af00;
+}
+
+.main{
+	text-align: center;
+	background-color: #949ba3;
+	padding: 25px 0 100px 0;
+	color: #ffffff;
+}
+.font_main_big{
+	font-size: 48px;
+	
+}
+.font_main_small{
+	font-size: 30px;
+	line-height: 48px;
+	
+	
+	
+	
+	
+}
+
+.banner{
+	width: 1000px;
+	position: relative;
+	top: -50px;
+	margin: 0 auto;
+	
+}
+.banner_wrap{
+	position: relative;
+	
+}
+.banner_wrap img{
+	box-shadow: 0 0 25px rgba(31,31,31,1);
+}
+
+.action{
+	position:absolute;
+	left:0;
+	bottom: 0;
+	width: 750px;
+	height: 100px;
+	background: url(img/action.png) no-repeat;
+	z-index: 2;
+}
+.text-action-big{
+	font-family: verdana;
+	font-size: 48px;
+	color: #f3af00;
+	margin-left: 95px;
+	
+}
+.text-action-small{
+	font-family: verdana;
+	font-size: 30px;
+	color: #ffffff;
+	margin-left: 25px;
+}
+
+.action-num{
+	position: absolute;
+	top: 25px;
+	left: 398px;
+}
+.action-right{
+	width: 251px;
+	height: 341px;
+	background-color: rgba(37,37,37,0.3);
+	position: absolute;
+	top: 0;
+	left: 749px;
+	text-align: center;
+	padding: 40px 0 0 10px;
+	box-sizing: border-box;
+}
+
+.text-action-send{
+	font-family: verdana;
+	font-size: 24px;
+	line-height: 24px;
+	color: #ffffff;
+	
+}
+
+.text-action-send-small{
+	font-family: verdana;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 20px;
+	
+	
+}
+div.action-right>span{
+	margin-bottom: 15px;
+}
+div.action-right>input{
+	width: 211px;
+	height: 30px;
+	margin-bottom: 15px;
+	border: none;
+	padding-left: 19px;
+	box-sizing: border-box;
+	
+}
+div.action-right :last-child{
+	margin-top: 14px;
+	height: 37px;
+	background: url(img/send.png) repeat;
+}
+
+.select{
+	background-color: #d1d1d1;
+	padding: 45px 0 45px 0;
+	text-align: center;
+}
+div#n :last-child{
+	
+	padding-left: 0px;
+}
+.icon{
+	width: 150px;
+	
+	background: url(img/sprite.png);
+	box-sizing:border-box;
+}
+
+.icon_one{
+	background-position: 0 0;
+}
+
+.icon_two{
+	background-position: 150px 0;
+}
+
+.icon_three{
+	background-position: 300px 0;
+}
+
+.icon_four{
+	background-position: 450px 0;
+}
+
+.sub-text{
+	padding-top: 150px;
+	margin-left: 80px;
+}
+
+.select-text{
+	font-family: verdana;
+	font-size: 36px;
+	color: #3b3d3e;
+	margin-bottom: 60px;
+	
+}
+.select-text-small{
+	font-family: verdana;
+	font-size: 14px;
+	color: #3b3d3e;
+	text-align: left;
+}
+
+
+ul#x :first-child{
+	margin-left: 0;
+}
+.form{
+	background-color: #80807f;
+	padding: 60px 0 60px 0;
+}
+
+.center{
+	text-align: center;
+}
+
+
+.form-text{
+	font-family: verdana;
+	font-size: 36px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.comment{
+	padding-bottom: 56px;
+}
+.form-small-text{
+	font-family: verdana;
+   font-size: 18px;
+	color: #ffffff;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+.text-gold{
+	color: #f3af00;
+}
+
+.form-inp{
+	width: 211px;
+	height: 30px;
+	padding-left: 19px;
+	box-sizing: border-box;
+	margin: 0 13px 0 13px;
+	
+}
+
+.form-send{
+	background: url(img/pic1.png) repeat;
+	border: none;
+}
+
+.com-wrap{
+	width: 460px;
+	background-color: #dddddd;
+	padding: 17px 15px 23px 30px;
+	box-sizing: border-box;
+	
+}
+
+.icon-com{
+	width: 156px;
+	height: 156px;
+	border-radius: 150px;
+	background: url(img/woker.png);
+	float: left;
+	margin-right: 45px;
+	
+}
+
+.text-com{
+	font-family: verdana;
+   font-size: 24px;
+	color: #3b3d3e;
+	line-height: 30px;
+}
+#marg{
+	margin-left: 48px;
+}
+.date-com{
+	line-height: 30px;
+	text-align: left;
+	font-family: verdana;
+   font-size: 16px;
+	color: #3b3d3e;
+}
+
+.head-com{
+	height: 200px;
+}
+
+.comments-top{
+	font-family: verdana;
+   font-size: 48px;
+	color: #3b3d3e;
+	line-height: 120px;
+}
+.text-com-small{
+	font-family: verdana;
+   font-size: 16px;
+	color: #3b3d3e;
+	text-align: left;
+	
+}
+.contact{
+	background-color: #80807f;
+	padding: 46px 0 50px 0;
+}
+.map{
+	border: 5px solid #3b3d3e;
+}
+
+.text-com-bottom{
+	font-family: verdana;
+   font-size: 14px;
+	color: #3b3d3e;
+	text-align: left;
+}
+.info{
+	margin-left: 30px;
+}
+.inform{
+	text-align: left;
+	font-family: tahoma;
+	color: white;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.text-info-w{
+	font-size: 14px;
+	border-bottom: 1px solid #3b3d3e;
+	padding-bottom: 7px;
+}
+.text-info-gold{
+	font-size: 14px;
+	color: #f3af00;
+	border-bottom: 1px solid #3b3d3e;
+	padding-bottom: 7px;
+}
+.buttom-send{
+	width: 305px;
+	height: 30px;
+	background: url(img/pic1.png) repeat-x;
+	line-height: 30px;
+	vertical-align: middle;
+	
+	
+	
+}
+.footer{
+	background-color: #353535;
+	padding: 62px 0 69px 0;
+	border-top: 2px solid #4e4e4e;
+	font-family: verdana;
+	font-size: 14px;
+	color: #ffffff;
+}
+a{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 15px;
+	color: #ffffff;
+}
