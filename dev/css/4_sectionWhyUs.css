@@ -1,0 +1,82 @@
+
+
+
+.icon{
+	width: 150px;
+	height: 150px;
+	
+	background: url(/img/sprite.png);
+	box-sizing:border-box;
+}
+
+.icon_one{
+	background-position: 0 0;
+}
+
+.icon_two{
+	background-position: 150px 0;
+}
+
+.icon_three{
+	background-position: 300px 0;
+}
+
+.icon_four{
+	background-position: 450px 0;
+}
+
+.sub-text{
+	box-sizing: border-box;
+	
+}
+
+.select-text{
+	font-family: verdana;
+	font-size: 36px;
+	color: #3b3d3e;
+	margin-bottom: 60px;
+	text-align: center;
+
+
+}
+.select-text-small{
+	font-family: verdana;
+	font-size: 14px;
+	color: #3b3d3e;
+	text-align: left;
+}
+
+.color{
+	background: #d1d1d1;
+}
+
+/*ul#x :first-child{
+	margin-left: 0;
+}*/
+
+
+@media screen and (min-width: 600px){
+	.sub-text{
+		padding: 10px;
+	
+    }
+	/*li.sub-text:nth-child(odd){
+		margin-left: 0;
+	}*/
+}
+
+@media screen and (min-width: 800px){
+	.sub-text{
+	
+	
+}
+
+}
+
+@media screen and (min-width: 1000px){
+	.sub-text{
+	
+	
+}
+
+}

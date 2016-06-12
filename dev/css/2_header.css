@@ -1,22 +1,90 @@
 .header{
 	background-color: #3f4142;
+	padding: 31px 0 20px 0;
+
 	
 }
 .logo{
 	text-align: center;
 }
 .container{
-	margin: 0 auto;
+	
 	max-width: 1000px;
 	
 	
+	
+}
+.phone{
+	display: inline-block;
+    padding-left: 20px;
+    background: url(/img/phone.png) no-repeat left center;
+    line-height: 24px;
+}
+
+.text-phone-one{
+	font-family: tahoma;
+	font-size: 14px; 
+	border-bottom: 1px solid white;
+	color: white;
+	
+
+
+}
+.text-phone-two{
+	font-family: tahoma;
+    font-size: 18px;
+    color: #f3af00;
 }
 .zayvka{
 
+	
+	width: 50%;
+	max-width: 250px;
+    height: 37px;
+    background: url(/img/pic1.png) repeat ;
+    border: none;
+    transition: 1s;
+}
+
+.center{
+	text-align: center;
+	display: inline-block;
+}
+div.logo, div.center{
+		margin-bottom: 20px;
+	}
+@media screen and (min-width: 600px){
+	
+	.zayvka{
+
+	width: 100%;
+	
+   }
 }
 @media screen and (min-width: 800px){
 	.logo{
 		text-align: left;
 	}
+	div.logo, div.center{
+		margin-bottom: 0;
+	}
+	.zayvka{
+
+	width: 80%;
+	max-width: 400px;
+   }
+
 }
 
+@media screen and (min-width: 1000px){
+	div.logo, div.center{
+		margin-bottom: 0;
+	}
+	.zayvka{
+
+	
+	max-width: 250px;
+    }
+
+
+}
